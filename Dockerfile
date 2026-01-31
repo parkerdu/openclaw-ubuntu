@@ -37,7 +37,7 @@ RUN npm config set registry https://registry.npmmirror.com && \
 
 RUN git config --global url."https://github.com/".insteadOf ssh://git@github.com/
 
-RUN npm install -g openclaw@latest
+RUN npm install -g openclaw@latest opencode-ai
 
 RUN mkdir -p /root/.openclaw /root/.openclaw/workspace /root/.openclaw/agents
 
